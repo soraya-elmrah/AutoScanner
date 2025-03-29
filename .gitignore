@@ -1,0 +1,22 @@
+cat << EOF > .gitignore
+# Environnement virtuel
+venv/
+__pycache__/
+*.pyc
+
+# Données de scan (générées par Trivy)
+data/reports/
+*.json
+*.csv
+*.log
+*.tmp
+
+# Fichiers système ou éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+EOF
