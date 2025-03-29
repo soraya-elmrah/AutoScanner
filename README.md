@@ -1,9 +1,9 @@
-# AutoScanner - Dashboard de sécurité pour images Docker 📦🔐
+# AutoScanner - Dashboard de sécurité pour images Docker 
 
 ## 🎯 Objectif
 AutoScanner est un outil interactif de supervision des vulnérabilités détectées par Trivy sur des images Docker. Il permet aux équipes sécurité et DevOps de visualiser, filtrer, exporter et tracer les résultats des scans de manière simple et efficace.
 
-## 📸 Aperçu rapide
+## Aperçu rapide
 - 📥 Upload de plusieurs rapports `.json` générés par Trivy
 - 📊 KPIs dynamiques (vulnérabilités, critiques, images scannées)
 - 📈 Graphique des vulnérabilités par sévérité
@@ -65,7 +65,7 @@ PYTHONPATH=. streamlit run app/dashboard.py
 - Filtres interactifs par sévérité
 - Export CSV des vulnérabilités filtrées
 
-## 📁 Structure du projet
+## Structure du projet
 ```
 autoscan/
 ├── app/
@@ -83,10 +83,10 @@ autoscan/
 
 ---
 
-## 🙋‍♀️ Auteur
+## Auteur
 Soraya El Mrah – Étudiante en cybersécurité, Télécom SudParis / IP Paris
 
-## 🔐 Licence
+## Licence
 MIT
 
 ---
